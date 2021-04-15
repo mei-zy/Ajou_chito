@@ -1,0 +1,111 @@
+body{
+    background-color:#f1f1f1;
+    font-family: 'Noto Sans KR';
+    letter-spacing: -0.5px;
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    margin-bottom: 40px;
+}
+#img{
+    
+    width: 400px;
+    height: 400px;
+    padding-top: 20px;
+    margin:0 auto;
+}
+
+.question{
+    display: none;
+}
+.result{
+    display: none;
+}
+/* result창 share button 가운데 정렬 */
+.share{
+    margin:0 auto;
+}
+.button{
+    /* width: 400px;
+    height:100px; */
+    margin:100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* 버튼 마우스 오버 effect */
+.btn {
+	position: relative;
+	z-index: 2;
+	background-color: #f1f1f1;
+	border-color: #f1f1f1;
+	color: #333;
+    /* margin-left:200px;
+    margin-right:200px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+	overflow: hidden;
+}
+.btn:hover{
+	background-color: #0a1950;
+    color:#f1f1f1;
+    letter-spacing: 5px;
+}
+.btn:active{
+    background-color: #0a1950;
+    color:#f1f1f1;
+    border-color:none;
+}
+btn:visited{
+    background-color: #f1f1f1;
+	border-color: #f1f1f1;
+    color: #333;
+}
+
+.horizon_line{
+    width: 500px;
+    color:#1c1c1c;
+    border-bottom:0px;
+    text-align:center;
+    margin:0 auto;
+}
+
+.horizon_line2{
+    width: 20px;
+    height:30px;
+    color:#0a1950;
+    border-bottom:0px;
+    text-align:center;
+    margin:0 auto;
+}
+
+.box{
+    background-color:black;
+    opacity: 0.8;
+    color:white;
+    border-style:solid;
+    border-width: 2px 4px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right:25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.banner-img {
+    width: 300px;
+    height: 405.17px;
+}
